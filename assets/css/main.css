@@ -5361,7 +5361,7 @@
 	font-size: 18px;
 }
 
-.kirfield:placeholder {
+.kirfield::placeholder {
 	    color: rgba(255, 255, 255, .75) !important;
 }
 
@@ -5374,6 +5374,65 @@
 	text-align: center;
 }
 
+.newaccent {
+    background-color: #fff !important;
+    min-height: 50rem;
+}
+
+.containit {
+	object-fit: contain !important;
+}
+
+.darkertext {
+	color: #4a4a4a !important;
+	font-size: 32px;
+}
+
+.lowlowp {
+    max-width: 27rem;
+    margin-left: 12rem;
+    margin-top: 1rem; 
+}
+
+.invert {
+	background-color: #D0021B;
+	color: #fff;
+	margin-left: 12rem;
+}
+
+.dude {
+    width: 6rem;
+    margin-left: 12rem;
+}
+
+.diffhead {
+	display: inline-block;
+}
+
+.dudesname {
+	display: inline-block;
+	margin-left: 10rem;
+}
+
+#four {
+	background-image: url("../../images/quotebg.png");
+	background-color: #32363F;
+	background-size: cover;
+
+}
+
+.totheleft {
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.totheleft::after {
+	width: 0 !important;
+}
+
+.quotepic {
+	height: 36rem !important;
+}
 
 
 
