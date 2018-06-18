@@ -5434,6 +5434,33 @@
 	height: 36rem !important;
 }
 
+.kirface {
+	padding-right: 0;
+    margin-bottom: 100px;
+}
+
+.lowerrightart {
+    background: #000;
+    margin-top: 150px;
+    min-height: 350px;
+}
+
+.workwork {
+	padding-top: 50px !important;
+}
+
+.thatred {
+	color: #EC334C;
+}
+
+.whitewhite {
+	color: #fff;
+}
+
+.gohere {
+	text-align: center;
+	margin-top: 25px;
+}
 
 
 
