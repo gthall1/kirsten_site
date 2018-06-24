@@ -5436,7 +5436,7 @@
 
 .kirface {
 	padding-right: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .lowerrightart {
@@ -5447,6 +5447,7 @@
 
 .workwork {
 	padding-top: 50px !important;
+	padding-left: 65px;
 }
 
 .thatred {
@@ -5462,7 +5463,26 @@
 	margin-top: 25px;
 }
 
+.kirstensend {
+	margin-top: 30px;
+	text-align: center;
+}
 
+.kirstenbtn {
+	background-color: #EC334C !important;
+	color: #fff !important;
+	box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.25) !important;
+}
+
+.worktext {
+	color: #CDCDCD;
+    width: 85%;
+}
+
+.eightyfive {
+	width: 85% !important;
+	margin: auto !important;
+}
 
 
 /* responsive review */
