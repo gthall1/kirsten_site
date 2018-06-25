@@ -4717,6 +4717,8 @@
 		z-index: 10002;
 	}
 
+
+
 		#menu input, #menu select, #menu textarea {
 			color: #ffffff;
 		}
@@ -5400,6 +5402,11 @@
 	margin-left: 12rem;
 }
 
+.invert:hover {
+	background-color: #EC334C !important;
+	color: #fff !important;
+}
+
 .dude {
     width: 6rem;
     margin-left: 12rem;
@@ -5482,6 +5489,10 @@
 .eightyfive {
 	width: 85% !important;
 	margin: auto !important;
+}
+
+.thiswhite:hover {
+	color: #EC334C !important;
 }
 
 
