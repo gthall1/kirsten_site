@@ -5388,6 +5388,7 @@
 .darkertext {
 	color: #4a4a4a !important;
 	font-size: 32px;
+	width: 40%;
 }
 
 .lowlowp {
@@ -5499,42 +5500,229 @@
 /* responsive review */
 
 @media screen and (max-width: 1280px) {
+	.press {
+		font-size: 165px;
+	}
+
+	.presspress {
+		margin-top: -173px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.press {
+		font-size: 130px;
+	}
+
+	.presspress {
+		margin-top: -152px;
+	}
+
+	.alltheway {
+		max-height: 500px;
+	}
+
+	.kirface {
+		margin-bottom: 15px;
+	}
+
+	.lowlowp {
+		margin-left: 5rem;
+	}
+
+	.newactions {
+		margin-left: -55px;
+	}
+
+	.sportlife {
+		margin-top: -70px;
+	}
+
+	.fancyhead {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 981px) {
 	
 
+	.smalldontshow {
+		display: block !important;
+	}
+
+	.smallshow {
+		display: none !important;
+	}
+
+	.quirkyleft {
+		padding-right: 23px !important;
+	}
+
+	.quirkyright {
+		padding-left: 23px !important;
+	}
 }
 
 @media screen and (max-width: 980px) {
 	.press {
-		font-size: 88px;
+		font-size: 98px;
 	}
 
 	.presspress {
-		font-size: 38px;
-		margin-top: -88px;
+		font-size: 32px;
+		margin-top: -116px;
 		margin-bottom: 50px;
+	}
+
+	.introp {
+		width: 80%;
+	}
+
+	.tallerpic {
+		height: 625px;
+	}
+
+	.alltheway {
+		max-height: 625px;
+	}
+
+	.sportlife, .articlep, .totheright {
+		text-align: center;
+	}
+
+	.smalldontshow {
+		display: none !important;
+	}
+
+	.smallshow {
+		display: block !important;
+	}
+
+	.centernow {
+		text-align: center !important;
+	}
+
+	.newceiling {
+		padding-top: 60px !important;
+	}
+
+	.tpgraphic {
+		display: none !important;
+	}
+
+	.lowlowp {
+	    padding-left: 0;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.strange {
+		margin-left: 0;
+	}
+
+	.newactions {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.newaccent {
+		min-height: 41rem;
+	}
+
+	.workwork {
+		margin-top: 0;
+		text-align: center !important;
+	    margin-left: auto !important;
+	    margin-right: auto !important;
+	    margin-bottom: 75px;
+	}
+
+	.marginauto {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.smallestshow {
+		display: none !important;
 	}
 }
 
-@media screen and (max-width: 480px) {
-	.press {
-		font-size: 58px;
+@media screen and (min-width: 480px) {
+
+	.smallestshow {
+		display: none !important;
 	}
 
+}
+
+@media screen and (max-width: 480px) {
+
 	.presspress {
-		font-size: 34px;
-	    margin-top: -72px;
+		font-size: 22px;
+	    margin-top: -76px;
 	    margin-bottom: 24px;
+	}
+
+	#banner {
+		background-position-x:  0rem;
+	}
+
+	.rings {
+		margin-top: -137px !important;
+	}
+
+	.fancyhead {
+		margin-top: 70px;
+	}
+
+	.press {
+		font-size: 53px;
+	}
+
+	.tallerpic {
+		height: 450px;
+	}
+
+	.newactions {
+		width: 80%;
+	    margin-left: auto !important;
+	    margin-right: auto !important;
+	}
+
+	.smallshow {
+		display: none !important;
+	}
+
+	.smallestshow {
+		display: block !important;
+	}
+
+	.eightyfive {
+		width: 100% !important;
+	}
+
+	.gohere {
+		margin-top: 50px !important;
+	}
+
+	.workwork {
+		padding-bottom: 50px !important;
+	}
+
+	.contactform {
+		width: 80%;
 	}
 }
 
 
 @media screen and (max-width: 380px) {
 	.press {
-		font-size: 54px;
+		font-size: 48px;
 	}
 
 	.presspress {
-	    font-size: 32px;
+	    font-size: 20px;
 	    margin-top: -69px;
 	    margin-bottom: 22px;
 	}
@@ -5542,22 +5730,62 @@
 
 @media screen and (max-width: 350px) {
 	.press {
-		font-size: 46px;
+		font-size: 41px;
 	}
 
 	.presspress {
-	    font-size: 30px;
+	    font-size: 20px;
 	    margin-top: -65px;
 	    margin-bottom: 20px;
+	}
+
+	.tinytinytext {
+		font-size: 12px !important;
 	}
 }
 
 @media screen and (min-width: 1800px) {
-	
+	.rings {
+		margin-top: -188px !important;
+	}
+
+	.fancyhead {
+		margin-top: 65px;
+	}
+
+	.lowlowp {
+		margin-left: 15rem;
+	}
+
+	.newactions {
+		margin-left: 3rem;
+	}
+
+	.tallerpic {
+		height: 650px;
+	}
 }
 
 @media screen and (min-width: 2400px) {
-	
+	.rings {
+		margin-top: -190px !important;
+	}
+
+	.fancyhead {
+		margin-top: 65px;
+	}
+
+	.lowlowp {
+		margin-left: 31rem;
+	}
+
+	.newactions {
+		margin-left: 19rem;
+	}
+
+	.tallerpic {
+		height: 700px;
+	}
 }
 
 
