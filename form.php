@@ -10,7 +10,7 @@ $message = $_POST['message'];
 $formcontent="First Name: $fname \r\n Last Name: $lname \r\n Email: $email \r\n Subject: $subject  \r\n Message: $message";
 $recipient = "griffhall1@gmail.com";
 $subject = "** Coaching Website Inquiry **";
-$mailheader = "From: griff@themodernboutique.com \r\n";
+$mailheader = "From: griff@brodcast.co \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 
 
